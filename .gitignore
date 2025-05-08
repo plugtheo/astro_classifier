@@ -155,3 +155,5 @@ ray_results/
 
 # PyTorch Lightning
 lightning_logs/ 
+
+process_test_images.ps1
