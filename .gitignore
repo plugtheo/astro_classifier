@@ -1,0 +1,157 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Dataset and Data Files
+data/raw/
+data/processed/
+data/interim/
+data/external/
+data/test_input/
+data/test_output/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+
+# Model Checkpoints and Weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.weights
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.tfl
+*.lite
+*.mlmodel
+
+# Logs and Results
+logs/
+runs/
+tensorboard/
+wandb/
+mlruns/
+*.log
+*.out
+*.err
+results/
+outputs/
+predictions/
+
+# Temporary Files
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Media Files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Documentation
+docs/_build/
+site/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# DVC
+.dvc/
+dvc.lock
+
+# Ray
+ray_results/
+
+# PyTorch Lightning
+lightning_logs/ 
