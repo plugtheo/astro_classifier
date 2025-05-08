@@ -14,11 +14,12 @@ A deep learning project for classifying astronomical objects using transfer lear
 
 ## Project Overview
 
-This project implements a deep learning model to classify astronomical objects into different categories (asteroids, black holes, comets, etc.). It uses transfer learning to leverage pre-trained models and fine-tunes them for our specific use case.
+This project implements a deep learning model to classify astronomical objects into different categories (asteroids, black holes, comets, etc.). It uses transfer learning to leverage pre-trained models and fine-tunes them for specific use case.
+It's also an experimental project for learning purposes and to further grow it so that one day it can classify more complex astronomical objects via sophisticated and flexible model architecture.
 
 ### Why Transfer Learning?
 
-Transfer learning is like learning to drive a car after already knowing how to ride a bicycle. You don't start from scratch - you use your existing knowledge of balance and coordination. Similarly, in our project:
+Transfer learning is like learning to drive a car after already knowing how to ride a bicycle. You don't start from scratch - you use your existing knowledge of balance and coordination. Similarly, for this project:
 
 1. **Limited Data**: Astronomical datasets are often smaller than general image datasets. It's like trying to learn a language with only a few example sentences.
 2. **Feature Reuse**: Pre-trained models already understand basic image features (edges, textures, patterns) - similar to how you can recognize shapes even if you've never seen that specific object before.
@@ -62,7 +63,7 @@ The project uses ResNet18 as the backbone model for several reasons:
      - Model size (11.7M parameters)
      - Computational efficiency
      - Feature extraction capability
-   - Suitable for our GPU memory constraints
+   - Suitable for GPU memory constraints
    - Pre-trained weights available for transfer learning
 
 3. **Performance Characteristics**
